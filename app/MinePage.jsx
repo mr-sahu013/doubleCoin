@@ -5,6 +5,7 @@ import { useAuthState } from "react-firebase-hooks/auth";
 import { firestore, auth, db } from "@/firebase/Config.jsx";
 import { ref, get } from "firebase/database";
 import { doc, setDoc, getDoc } from "firebase/firestore"; // Import Firestore functions
+import Image from "next/image";
 
 const MinePage = () => {
   const [user] = useAuthState(auth);
@@ -101,7 +102,7 @@ const MinePage = () => {
             className="bg-blue-950 h-32 w-32 rounded-full flex items-center justify-center"
             onClick={handleMineClick}
           >
-            <img
+            <Image
               src="/spinner.png"
               alt=""
               className={animate ? "animate-spin" : ""}
