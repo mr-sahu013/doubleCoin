@@ -3,7 +3,7 @@
 import { useEffect } from "react";
 import MinePage from "./MinePage";
 import { useAuthState } from "react-firebase-hooks/auth";
-import { auth } from "@/firebase/Config.jsx";
+import { auth } from "@/components/firebase/Config.jsx";
 import { useRouter } from "next/navigation"; // Import useRouter for navigation
 import Loader from "@/components/Loader.jsx";
 // import Head from "next/head";
