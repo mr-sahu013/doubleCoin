@@ -29,14 +29,14 @@ export default function Home() {
   }
   return (
     <main>
-      {/* <Head>
+      <Head>
         <script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3290149202068454"
           crossorigin="anonymous"
         ></script>
         <meta name="google-adsense-account" content="ca-pub-3290149202068454" />
-      </Head> */}
+      </Head> 
       <div className="text-center my-3">
         <p className=" text-3xl  font-mono">Spinn-Coins</p>
         <p className="text-2xl mt-1">Double-Coin</p>
