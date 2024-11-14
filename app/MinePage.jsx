@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 import { FaCoins } from "react-icons/fa6";
 import { useAuthState } from "react-firebase-hooks/auth";
-import { firestore, auth, db } from "@/firebase/Config.jsx";
+import { firestore, auth, db } from "@/components/firebase/Config.jsx";
 import { ref, get } from "firebase/database";
 import { doc, setDoc, getDoc } from "firebase/firestore"; // Import Firestore functions
 import Image from "next/image";
