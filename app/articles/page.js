@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
 
-import { firestore } from "@/firebase/Config.jsx"; // Ensure firestore is imported
+import { firestore } from "@/components/firebase/Config.jsx"; // Ensure firestore is imported
 import { collection, getDocs } from "firebase/firestore"; // Ensure collection and getDocs are imported
 
 const Page = () => {
