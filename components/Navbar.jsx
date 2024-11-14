@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -7,7 +8,7 @@ const Navbar = () => {
       <div className="mx-5 flex items-center">
         <Link href={"/"}>
           {" "}
-          <img src="/editPhoto.png" alt="logo" className="h-10" />
+          <Image src="/editPhoto.png" alt="logo" className="h-10" />
         </Link>
         <Link href={"/"}>
           {" "}
