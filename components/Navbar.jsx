@@ -8,7 +8,7 @@ const Navbar = () => {
       <div className="mx-5 flex items-center">
         <Link href={"/"}>
           {" "}
-          <Image width={50} height={50} src="/editPhoto.png" alt="logo" className="h-10" />
+          <Image width={50} height={50} src="/editPhoto.png" alt="logo" />
         </Link>
         <Link href={"/"}>
           {" "}
