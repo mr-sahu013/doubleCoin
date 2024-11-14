@@ -103,6 +103,8 @@ const MinePage = () => {
             onClick={handleMineClick}
           >
             <Image
+              width={300}
+              height={300}
               src="/spinner.png"
               alt=""
               className={animate ? "animate-spin" : ""}
