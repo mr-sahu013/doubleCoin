@@ -4,7 +4,7 @@ import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { ToastContainer, toast, Zoom, Bounce } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { auth, db } from "@/firebase/Config.jsx";
+import { auth, db } from "@/components/firebase/Config.jsx";
 import { ref, set } from "firebase/database";
 import { useSignInWithGoogle } from "react-firebase-hooks/auth";
 
