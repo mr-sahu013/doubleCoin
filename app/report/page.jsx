@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import { collection, addDoc } from "firebase/firestore";
 import { useAuthState } from "react-firebase-hooks/auth";
-import { firestore, auth } from "@/components/firebase/Config.jsxx"; // Ensure db is imported
+import { firestore, auth } from "@/components/firebase/Config.jsx"; // Ensure db is imported
 
 const Page = () => {
   const [user] = useAuthState(auth);
