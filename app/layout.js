@@ -4,7 +4,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import Head from "next/head";
+// import Head from "next/head";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -20,8 +20,14 @@ const geistMono = localFont({
 // Define metadata
 export const metadata = {
   title: "Double-Coins",
-  description: "Your page description goes here.",
-  viewport: "width=device-width, initial-scale=1",
+  description:
+    "My website made for playing game. This game like minig coine. That have have minging function and generate coine and increase number using spinner in this website page.",
+  keywords: "minig coine, game, spinner, coine, minging function",
+  og: {
+    title: "Double-Coins",
+    description:
+      "My website made for playing game. This game like minig coine. That have have minging function and generate coine and increase number using spinner in this website page.",
+  },
   icons: {
     icon: "/editPhoto.png",
   },
@@ -30,6 +36,13 @@ export const metadata = {
       async: true,
       src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3290149202068454",
       crossorigin: "anonymous",
+    },
+  ],
+  meta: [
+    {
+      name: "viewport",
+      content:
+        "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no",
     },
   ],
   meta: [
@@ -43,7 +56,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <Head>
+      {/* <Head>
         <meta name="viewport" content={metadata.viewport} />
         <link rel="icon" href="/editPhoto.png" />
         <script
@@ -52,7 +65,7 @@ export default function RootLayout({ children }) {
           crossorigin="anonymous"
         ></script>
         <meta name="google-adsense-account" content="ca-pub-3290149202068454" />
-      </Head>
+      </Head> */}
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gray-800`}
       >

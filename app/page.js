@@ -5,8 +5,8 @@ import MinePage from "./MinePage";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { auth } from "@/firebase/Config.jsx";
 import { useRouter } from "next/navigation"; // Import useRouter for navigation
-import Loader from "@/components/loader";
-import Head from "next/head";
+import Loader from "@/components/Loader.jsx";
+// import Head from "next/head";
 
 export default function Home() {
   const [user, loading, error] = useAuthState(auth);
@@ -29,14 +29,14 @@ export default function Home() {
   }
   return (
     <main>
-      <Head>
+      {/* <Head>
         <script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3290149202068454"
           crossorigin="anonymous"
         ></script>
         <meta name="google-adsense-account" content="ca-pub-3290149202068454" />
-      </Head>
+      </Head> */}
       <div className="text-center my-3">
         <p className=" text-3xl  font-mono">Spinn-Coins</p>
         <p className="text-2xl mt-1">Double-Coin</p>
