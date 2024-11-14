@@ -56,16 +56,14 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      {/* <Head>
-        <meta name="viewport" content={metadata.viewport} />
-        <link rel="icon" href="/editPhoto.png" />
+       <Head>
         <script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3290149202068454"
           crossorigin="anonymous"
         ></script>
         <meta name="google-adsense-account" content="ca-pub-3290149202068454" />
-      </Head> */}
+      </Head> 
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gray-800`}
       >
