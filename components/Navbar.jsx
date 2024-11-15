@@ -12,7 +12,7 @@ const Navbar = () => {
         </Link>
         <Link href={"/"}>
           {" "}
-          <p className="text-2xl font-serif">Doble-Coin</p>{" "}
+          <p className="text-2xl font-serif text-white">Doble-Coin</p>{" "}
         </Link>
       </div>
     </div>
