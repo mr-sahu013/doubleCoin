@@ -35,7 +35,7 @@ const Page = () => {
           If you have any issues then you can contact me through message
         </p>
         <textarea
-          className="bg-[#222630] px-4 py-3 outline-none w-full text-white rounded-lg border-2 transition-colors duration-100 border-solid focus:border-[#596A95] border-[#2B3040]"
+          className=" px-4 py-3 outline-none w-full  rounded-lg border-2 transition-colors duration-100 border-solid focus:border-[#596A95] border-[#2B3040]"
           placeholder="Type your message here..."
           value={message}
           onChange={(e) => setMessage(e.target.value)}
