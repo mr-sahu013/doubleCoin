@@ -63,7 +63,7 @@ export default function RootLayout({ children }) {
 ></script>
     <meta name="google-adsense-account" content="ca-pub-3290149202068454" />
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gray-800`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Navbar />
         <div className="pb-24">{children}</div>
