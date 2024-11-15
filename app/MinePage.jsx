@@ -84,14 +84,14 @@ const MinePage = () => {
       <div className="mine-web">
         <div className="bg-slate-700 mx-5 rounded-lg">
           <div className="text-center mt-5">
-            <p className="bg-slate-600 rounded-lg px-2 py-1 text-center">
+            <p className="bg-slate-600 text-red-500 rounded-lg px-2 py-1 text-center">
               @{username}
             </p>
             <div className="flex justify-center items-center gap-2 ">
-              <FaCoins />
-              <p>Your Coin</p>
+              <FaCoins className="text-yellow-500" />
+              <p className="text-white">Your Coin</p>
             </div>
-            <p className="double-coin text-xl">{coin.toFixed(3)}</p>
+            <p className="double-coin text-xl text-white">{coin.toFixed(3)}</p>
           </div>
         </div>
         <div className="text-center mt-10">
