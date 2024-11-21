@@ -6,6 +6,7 @@ import { firestore, auth, db } from "@/components/firebase/Config.jsx";
 import { ref, get } from "firebase/database";
 import { doc, setDoc, getDoc } from "firebase/firestore"; // Import Firestore functions
 import Image from "next/image";
+import Head from "next/react"
 
 const MinePage = () => {
   const [user] = useAuthState(auth);
@@ -82,6 +83,10 @@ const MinePage = () => {
   return (
     <>
       <div className="mine-web">
+        <Head>
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3290149202068454"
+     crossorigin="anonymous"></script>
+    </Head>
         <div className="bg-slate-700 mx-5 rounded-lg">
           <div className="text-center mt-5">
             <p className="bg-slate-600 text-red-500 rounded-lg px-2 py-1 text-center">
